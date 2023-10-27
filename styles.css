@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+.Barra-principal{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    float: none;
+}
+
+section {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+ul, li {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Botón CTA */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Formulario de Suscripción */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Enlaces de navegación */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
